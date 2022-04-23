@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5114740581426407795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5114740581426407797}
+  - component: {fileID: 5114740581426407796}
+  m_Layer: 0
+  m_Name: Residential Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5114740581426407797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5114740581426407795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5114740581426407796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5114740581426407795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae00c22a5723374cadb18d84317e041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origin: {x: 0, y: 0, z: 0}
+  xSize: 256
+  ySize: 256
+  smallHousePrefab: {fileID: 5976538520954796874, guid: 3c8ba88924e4d2f43a25b9b67c1bf98f, type: 3}
+  mediumHouseHPrefab: {fileID: 2923540921702540389, guid: 62b95831b58aa0e459726ba38aecd902, type: 3}
+  mediumHouseVPrefab: {fileID: 4641164489803614593, guid: a93f1f247c7d83d47b5c2d2010af2684, type: 3}
+  largeHousePrefab: {fileID: 1562583471852307476, guid: c3b50cbe20531e54b922e0addbfc71d8, type: 3}
+  parkPrefab: {fileID: 6645246009954719723, guid: 50e2788f675e958449bb699464f3e451, type: 3}
+  mediumBuildingChance: 0.3
+  largeBuildingChance: 0.15
+  parkChance: 0.025
