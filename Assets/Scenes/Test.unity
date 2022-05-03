@@ -785,7 +785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &169242154
 Transform:
   m_ObjectHideFlags: 0
@@ -1844,7 +1844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &650685019
 Transform:
   m_ObjectHideFlags: 0
@@ -2573,7 +2573,7 @@ MonoBehaviour:
     Dimensions:
     - Start: 0
       End: 7
-    - Start: 2
+    - Start: 3
       End: 11
     - Start: 0
       End: 7
@@ -3241,7 +3241,9 @@ MonoBehaviour:
     - Name: Wall
       ConnectionType: 3
   - Connectors: []
-  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
   - Connectors: []
   - Connectors:
     - Name: WallVertical
