@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: d1b09c2f08c1cec4c8b48f53a6007a07
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BaseMaterial
+    second: {fileID: 2100000, guid: f4259335c40700c47a0853a39d6e106e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PagodeMaterial
+    second: {fileID: 2100000, guid: 95a19bb89c19ae848bea4de99eb88792, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoadMaterial
+    second: {fileID: 2100000, guid: 5f29018cf3c579e40ae5e5be98b2a0ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RockMaterial
+    second: {fileID: 2100000, guid: eeae1e2804aa1c44d8039e1ee649f038, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WaterMaterial
+    second: {fileID: 2100000, guid: 29ed7953e3b51684c8dda4351aa196fe, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["CliffSmallTop","CliffSmallLeftEdge","Base","CliffSmall","Cliff.007","River","RoadStraight","CliffBottom.002","CliffTop.001","CliffSmallLeftEdgeBottom","CliffSmallRightEdgeTop","CliffBottom","CliffSmallRightEdge","Cliff.002","CliffSmallBottom","CliffTop.002","RiverStart","Road","CliffBottom.003","CliffSmallLeftEdgeTop","Cliff","CliffSmallRightEdgeBottom","CliffTop","PavillionSideCombined","River.002","CliffSmallBottomRiverLeft","PavillionTopCombined","RoadStraightSmallRight","Road.002","LadderBottomLeft","WaterfallBottomRight","LadderBottomRight","Road.003","PavillionDoorCombined","WaterfallTop","Ladder","LadderTop","Waterfall","CliffSmallBottomRoadRight","RoadStraightSmallLeft","WaterfallBottomLeft","River.001","RoadStraightSmallRiverLeft","CliffSmallBottomRiverRight","Bridge.001","RoadStraightSmallRiverRight","CliffSmallBottomRoadLeft"],"padding":[61,32,55,31,17,48,39,15,28,28,55,15,30,18,25,27,35,42,14,56,16,23,27,27,53,22,26,48,42,15,17,15,46,29,33,15,29,14,23,50,17,47,49,28,34,48,21],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -91,7 +91,7 @@ public class Grid2D<T>
     public Vector2Int WorldToGrid(float x, float y)
     {
         int xIndex = Mathf.FloorToInt((x - origin.x) / tileSize);
-        int yIndex = Mathf.FloorToInt((y - origin.y) / tileSize);
+        int yIndex = Mathf.FloorToInt((y - origin.z) / tileSize);
         return new Vector2Int(Mathf.Max(xIndex, 0), Mathf.Max(yIndex, 0));
     }
 
@@ -101,6 +101,8 @@ public class Grid2D<T>
         {
             for (int c = 0; c < newGrid.ySize; c++)
             {
+                if (x + i > xSize - 1 || y + c > ySize - 1)
+                    continue;
                 SetAt(newGrid.GetAt(i, c), x + i, y + c);
                 zOffset[x + i, y + c] = newGrid.zOffset[i, c];
                 isEmpty[x + i, y + c] = newGrid.isEmpty[i, c];

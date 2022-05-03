@@ -1,0 +1,10 @@
+This asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+
+Z3 Prover Library
+MIT License
+Copyright (c) Microsoft Corporation
+
+One or more textures on the cyberpunk city example 3D models have been created with photographs from Textures.com. These photographs may not be redistributed by default; please visit www.textures.com for more information.
+To be more precise, nothing here may be be redisributed by default, because of the asset store license...
+
+The textures in the 2D example are from https://www.kenney.nl/assets/rpg-base, they are under CC0 1.0 Universal. 

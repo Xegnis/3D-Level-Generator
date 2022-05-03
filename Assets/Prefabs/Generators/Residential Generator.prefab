@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {x: 0, y: 0, z: 0}
-  xSize: 256
-  ySize: 256
+  xSize: 128
+  ySize: 128
   smallHousePrefab: {fileID: 5976538520954796874, guid: 3c8ba88924e4d2f43a25b9b67c1bf98f, type: 3}
   mediumHouseHPrefab: {fileID: 2923540921702540389, guid: 62b95831b58aa0e459726ba38aecd902, type: 3}
   mediumHouseVPrefab: {fileID: 4641164489803614593, guid: a93f1f247c7d83d47b5c2d2010af2684, type: 3}

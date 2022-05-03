@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum NodeType {Empty = 0, Road, Building }
 
@@ -27,6 +28,8 @@ public class Node
 
 public class LevelGenerator : MonoBehaviour
 {
+    public int xSize;
+    public int ySize;
     [Header("Generators")]
     public GameObject residentialGenerator;
     public GameObject commercialGenerator;
@@ -36,18 +39,20 @@ public class LevelGenerator : MonoBehaviour
 
     void Start()
     {
-        mainGrid = new Grid2D<Node>(1024, 1024);
+        mainGrid = new Grid2D<Node>(xSize, ySize);
         mainGrid.Initialize();
         SpawnResidential();
+        SpawnIndustrial();
+        SpawnCommercial();
     }
+
 
     //Spawn the residential district near the center of the map
     void SpawnResidential ()
     {
-        int xGridLocation = Random.Range(mainGrid.xSize / 4, mainGrid.xSize * 3 / 4);
-        int yGridLocation = Random.Range(mainGrid.ySize / 4, mainGrid.ySize * 3 / 4);
+        int xGridLocation = Random.Range(mainGrid.xSize / 4, mainGrid.xSize / 2);
+        int yGridLocation = Random.Range(mainGrid.ySize / 4, mainGrid.ySize / 2);
         Vector3 worldPos = mainGrid.GridToWorld(xGridLocation, yGridLocation);
-        Debug.Log(worldPos);
         GameObject generator = Instantiate(residentialGenerator, worldPos, Quaternion.identity);
         Generator rg = generator.GetComponent<Generator>();
         rg.Generate();
@@ -56,11 +61,36 @@ public class LevelGenerator : MonoBehaviour
 
     void SpawnCommercial ()
     {
-
+        int xGridLocation = Random.Range(mainGrid.xSize / 4, mainGrid.xSize / 2);
+        int yGridLocation = Random.Range(mainGrid.ySize / 4, mainGrid.ySize / 2);
+        Vector3 worldPos = mainGrid.GridToWorld(xGridLocation, yGridLocation);
+        GameObject generator = Instantiate(commercialGenerator, worldPos, Quaternion.identity);
+        Generator rg = generator.GetComponent<Generator>();
+        rg.Generate();
+        mainGrid.Import(rg.grid, xGridLocation, yGridLocation);
     }
 
     void SpawnIndustrial ()
     {
+        int xGridLocation = Random.Range(mainGrid.xSize / 4, mainGrid.xSize / 2);
+        int yGridLocation = Random.Range(mainGrid.ySize / 4, mainGrid.ySize / 2);
+        Vector3 worldPos = mainGrid.GridToWorld(xGridLocation, yGridLocation);
+        GameObject generator = Instantiate(industrialGenerator, worldPos, Quaternion.identity);
+        Generator rg = generator.GetComponent<Generator>();
+        rg.Generate();
+        mainGrid.Import(rg.grid, xGridLocation, yGridLocation);
+    }
 
+    void SpawnOutSkirt ()
+    {
+
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }

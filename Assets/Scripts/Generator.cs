@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using StixGames;
 
 public class Generator : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class Generator : MonoBehaviour
 
     public virtual void Generate ()
     {
-
+        
     }
 
     public void SpawnBlock(GameObject prefab, int x, int y)

@@ -1,0 +1,12 @@
+You can either use the online documentation: http://stixgames.com/tile-composer/documentation
+
+Or unpack the offline version: Documentation.zip
+Be aware that you shouldn't unpack it into your asset folder, as (at least older versions of Unity) will believe that the javascript files are Unity scripts.
+
+------------------------------------
+For more questions, feedback, or requests, contact me through on of the following: 
+
+Support email: support@stixgames.com
+Unity forums post: https://forum.unity.com/threads/tile-composer-code-free-procedural-generation.849637/
+Twitter: https://twitter.com/simon_stix
+Discord: https://discord.gg/jvBFhQA

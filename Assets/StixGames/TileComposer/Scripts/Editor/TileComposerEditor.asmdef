@@ -1,0 +1,17 @@
+{
+    "name": "WaveFunctionCollapseEditor",
+    "references": [
+        "GUID:755b54ac95767174eb64dbb27c8740f5"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
