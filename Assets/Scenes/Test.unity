@@ -242,10 +242,10 @@ MonoBehaviour:
     Overrides: 000000000000
   Connectors:
   - Connectors:
-    - Name: Wall
+    - Name: Floor
       ConnectionType: 3
   - Connectors:
-    - Name: Wall
+    - Name: Floor
       ConnectionType: 3
   - Connectors: []
   - Connectors: []
@@ -2391,6 +2391,8 @@ MonoBehaviour:
     IsBidirectional: 1
   - Name: WallVerticalEdge
     IsBidirectional: 1
+  - Name: Floor
+    IsBidirectional: 1
   CustomValues: []
 --- !u!4 &748898043
 Transform:
@@ -2520,10 +2522,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileCollection: {fileID: 748898042}
   Seed: 0
-  MaxTries: 1
-  SolverTypeSelection: 1
+  MaxTries: 10
+  SolverTypeSelection: 0
   ParallelInstances: 1
-  Timeout: 10
+  Timeout: 2
   GenerateAsynchronously: 0
   GenerateOnStart: 1
   DestroyAfterUse: 0
@@ -2573,10 +2575,18 @@ MonoBehaviour:
     Dimensions:
     - Start: 0
       End: 7
-    - Start: 3
+    - Start: 11
       End: 11
     - Start: 0
       End: 7
+  - TileType: Tile (15)
+    Dimensions:
+    - Start: 3
+      End: 3
+    - Start: 0
+      End: 0
+    - Start: 1
+      End: 1
   SATSettings:
     RandomizeConstraintOrder: 1
     WeightPriority: 0
@@ -3432,12 +3442,12 @@ MonoBehaviour:
     Overrides: 000000000000
   Connectors:
   - Connectors:
-    - Name: Wall
+    - Name: Floor
       ConnectionType: 3
   - Connectors: []
   - Connectors: []
   - Connectors:
-    - Name: Wall
+    - Name: Floor
       ConnectionType: 3
   - Connectors:
     - Name: WallVerticalEdge
