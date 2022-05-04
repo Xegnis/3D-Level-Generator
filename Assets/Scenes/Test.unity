@@ -154,7 +154,7 @@ Transform:
   - {fileID: 330501962}
   - {fileID: 723708750}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3544953
 MonoBehaviour:
@@ -179,6 +179,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -208,6 +211,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -220,12 +226,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -235,13 +235,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -276,7 +273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &89463798
 Transform:
   m_ObjectHideFlags: 0
@@ -317,6 +314,9 @@ MonoBehaviour:
   - TileType: Alt roof turn
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Boring Floor
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -327,13 +327,13 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Empty
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 0000000000000000ffffffff000000000000000000000000
     Overrides: 000000000000
   - TileType: Floor Turn
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Inside
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 000000000000000000000000ffffffff0000000000000000
     Overrides: 000000000000
   - TileType: Normal Roof
     Sides: 000000000000000000000000000000000000000000000000
@@ -342,6 +342,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Roof filler
@@ -354,30 +357,21 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Tile (1)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
+    Sides: 000000000100000000000000000000000000000000000000
+    Overrides: 000100000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Tile (3)
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 020000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -385,8 +379,12 @@ MonoBehaviour:
   - Connectors: []
   - Connectors: []
   - Connectors: []
-  - Connectors: []
-  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
   BaseWeight: 1
   CanNeighborSelf: 1
   CustomProperties: []
@@ -406,7 +404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &100518710
 Transform:
   m_ObjectHideFlags: 0
@@ -435,7 +433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BaseTile: {fileID: 0}
-  TileType: Tile (5)
+  TileType: Boring balcony
   RotationAxes: 01000000
   Neighbors:
   - TileType: Alt roof
@@ -445,6 +443,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -457,13 +458,13 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Empty
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 0000000000000000ffffffff000000000000000000000000
     Overrides: 000000000000
   - TileType: Floor Turn
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Inside
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 000000000000000000000000ffffffff0000000000000000
     Overrides: 000000000000
   - TileType: Normal Roof
     Sides: 000000000000000000000000000000000000000000000000
@@ -472,6 +473,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Roof filler
@@ -486,12 +490,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -501,22 +499,27 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
   - Connectors: []
   - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
   BaseWeight: 1
   CanNeighborSelf: 1
   CustomProperties: []
@@ -612,7 +615,7 @@ Transform:
   m_Children:
   - {fileID: 1204763514}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &130094029
 MonoBehaviour:
@@ -637,6 +640,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -666,6 +672,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -678,12 +687,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -693,13 +696,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -812,7 +812,7 @@ Transform:
   m_Children:
   - {fileID: 1580609932}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &169242155
 MonoBehaviour:
@@ -837,6 +837,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -866,6 +869,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -878,12 +884,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -893,13 +893,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -917,7 +914,7 @@ MonoBehaviour:
   - Connectors:
     - Name: WallVerticalEdge
       ConnectionType: 3
-  BaseWeight: 1
+  BaseWeight: 8
   CanNeighborSelf: 1
   CustomProperties: []
 --- !u!1001 &245856344
@@ -1002,7 +999,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &276516919
 Transform:
   m_ObjectHideFlags: 0
@@ -1043,6 +1040,9 @@ MonoBehaviour:
   - TileType: Alt roof turn
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Boring Floor
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -1053,13 +1053,13 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Empty
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 0000000000000000ffffffff000000000000000000000000
     Overrides: 000000000000
   - TileType: Floor Turn
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Inside
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 000000000000000000000000ffffffff0000000000000000
     Overrides: 000000000000
   - TileType: Normal Roof
     Sides: 000000000000000000000000000000000000000000000000
@@ -1068,6 +1068,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Roof filler
@@ -1082,14 +1085,8 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 020000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Tile (3)
     Sides: 000000000000000000000000000000000000000000000000
@@ -1097,87 +1094,28 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
   - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
   - Connectors: []
   - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
   BaseWeight: 1
   CanNeighborSelf: 1
   CustomProperties: []
---- !u!1001 &287234584
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1324059632}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-      propertyPath: m_Name
-      value: 6
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
---- !u!4 &287234585 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 23752966e2d68214b9314a61cd5b87d5, type: 3}
-  m_PrefabInstance: {fileID: 287234584}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &330501961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1235,7 +1173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
@@ -1260,7 +1198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &357874198
 Transform:
   m_ObjectHideFlags: 0
@@ -1274,7 +1212,7 @@ Transform:
   m_Children:
   - {fileID: 915966165}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &357874199
 MonoBehaviour:
@@ -1289,7 +1227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BaseTile: {fileID: 0}
-  TileType: Tile (11)
+  TileType: Wall Turn window right
   RotationAxes: 01000000
   Neighbors:
   - TileType: Alt roof
@@ -1299,6 +1237,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -1311,7 +1252,7 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Empty
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: ffffffff00000000ffffffff000000000000000000000000
     Overrides: 000000000000
   - TileType: Floor Turn
     Sides: 000000000000000000000000000000000000000000000000
@@ -1328,6 +1269,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -1340,12 +1284,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -1355,22 +1293,27 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
   - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
   - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
   BaseWeight: 1
   CanNeighborSelf: 1
   CustomProperties: []
@@ -1404,7 +1347,7 @@ Transform:
   m_Children:
   - {fileID: 160941115}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &567696489
 MonoBehaviour:
@@ -1429,6 +1372,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -1458,6 +1404,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -1470,12 +1419,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -1485,13 +1428,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -1633,7 +1573,7 @@ Transform:
   m_Children:
   - {fileID: 1004213396}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &601254430
 MonoBehaviour:
@@ -1658,6 +1598,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -1687,6 +1630,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -1699,12 +1645,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -1714,13 +1654,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -1753,7 +1690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &634403793
 Transform:
   m_ObjectHideFlags: 0
@@ -1794,6 +1731,9 @@ MonoBehaviour:
   - TileType: Alt roof turn
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Boring Floor
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -1804,13 +1744,13 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Empty
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 0000000000000000ffffffff000000000000000000000000
     Overrides: 000000000000
   - TileType: Floor Turn
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Inside
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 000000000000000000000000ffffffff0000000000000000
     Overrides: 000000000000
   - TileType: Normal Roof
     Sides: 000000000000000000000000000000000000000000000000
@@ -1819,6 +1759,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Roof filler
@@ -1833,37 +1776,34 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
+    Sides: 000000000100000000000000000000000000000000000000
+    Overrides: 000100000000
   - TileType: Tile (3)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
   - Connectors: []
   - Connectors: []
   - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
   BaseWeight: 1
   CanNeighborSelf: 1
   CustomProperties: []
@@ -1897,7 +1837,7 @@ Transform:
   m_Children:
   - {fileID: 750402335}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &650685020
 MonoBehaviour:
@@ -1922,6 +1862,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -1951,6 +1894,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -1963,12 +1909,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -1978,13 +1918,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -2083,7 +2020,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &696581274
 Transform:
   m_ObjectHideFlags: 0
@@ -2124,6 +2061,9 @@ MonoBehaviour:
   - TileType: Alt roof turn
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Boring Floor
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -2134,7 +2074,7 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Empty
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 00000000ffffffffffffffff000000000000000000000000
     Overrides: 000000000000
   - TileType: Floor Turn
     Sides: 000000000000000000000000000000000000000000000000
@@ -2151,6 +2091,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -2163,12 +2106,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -2178,22 +2115,27 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
   - Connectors: []
   - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
   BaseWeight: 1
   CanNeighborSelf: 1
   CustomProperties: []
@@ -2275,7 +2217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &717317992
 Transform:
   m_ObjectHideFlags: 0
@@ -2289,7 +2231,7 @@ Transform:
   m_Children:
   - {fileID: 1516466155}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &717317993
 MonoBehaviour:
@@ -2304,7 +2246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BaseTile: {fileID: 0}
-  TileType: Tile (10)
+  TileType: Wall turn window left
   RotationAxes: 01000000
   Neighbors:
   - TileType: Alt roof
@@ -2314,6 +2256,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -2326,7 +2271,7 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Empty
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: ffffffff00000000ffffffff000000000000000000000000
     Overrides: 000000000000
   - TileType: Floor Turn
     Sides: 000000000000000000000000000000000000000000000000
@@ -2343,6 +2288,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -2355,12 +2303,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -2370,22 +2312,27 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
   - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
   - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
   BaseWeight: 1
   CanNeighborSelf: 1
   CustomProperties: []
@@ -2527,7 +2474,6 @@ Transform:
   - {fileID: 634403793}
   - {fileID: 696581274}
   - {fileID: 100518710}
-  - {fileID: 1324059632}
   - {fileID: 853678271}
   - {fileID: 650685019}
   - {fileID: 169242154}
@@ -2640,7 +2586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileCollection: {fileID: 748898042}
   Seed: 0
-  MaxTries: 20
+  MaxTries: 30
   SolverTypeSelection: 0
   ParallelInstances: 1
   Timeout: 1
@@ -2823,7 +2769,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &853678271
 Transform:
   m_ObjectHideFlags: 0
@@ -2837,7 +2783,7 @@ Transform:
   m_Children:
   - {fileID: 966301877}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &853678272
 MonoBehaviour:
@@ -2852,7 +2798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BaseTile: {fileID: 0}
-  TileType: Tile (7)
+  TileType: Normal window wall
   RotationAxes: 01000000
   Neighbors:
   - TileType: Alt roof
@@ -2862,6 +2808,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -2874,13 +2823,13 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Empty
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 0000000000000000ffffffff000000000000000000000000
     Overrides: 000000000000
   - TileType: Floor Turn
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Inside
-    Sides: 000000000000000000000000000000000000000000000000
+    Sides: 000000000000000000000000ffffffff0000000000000000
     Overrides: 000000000000
   - TileType: Normal Roof
     Sides: 000000000000000000000000000000000000000000000000
@@ -2889,6 +2838,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Roof filler
@@ -2903,12 +2855,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -2918,22 +2864,27 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
   - Connectors: []
   - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
   BaseWeight: 1
   CanNeighborSelf: 1
   CustomProperties: []
@@ -3277,7 +3228,7 @@ Transform:
   m_Children:
   - {fileID: 729990864}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1112338638
 MonoBehaviour:
@@ -3302,6 +3253,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -3331,6 +3285,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -3343,12 +3300,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -3358,13 +3309,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -3477,7 +3425,7 @@ Transform:
   m_Children:
   - {fileID: 696612138}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1286931224
 MonoBehaviour:
@@ -3502,6 +3450,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -3531,6 +3482,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -3543,12 +3497,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -3558,13 +3506,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -3579,136 +3524,6 @@ MonoBehaviour:
   - Connectors:
     - Name: WallVerticalEdge
       ConnectionType: 3
-  - Connectors: []
-  BaseWeight: 1
-  CanNeighborSelf: 1
-  CustomProperties: []
---- !u!1 &1324059631
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1324059632}
-  - component: {fileID: 1324059633}
-  m_Layer: 0
-  m_Name: 6
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1324059632
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324059631}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 0, z: 3.17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 287234585}
-  m_Father: {fileID: 748898043}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1324059633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324059631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BaseTile: {fileID: 0}
-  TileType: Tile (6)
-  RotationAxes: 01000000
-  Neighbors:
-  - TileType: Alt roof
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Alt roof filler
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Alt roof turn
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Boring Floor
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Door left
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Door right
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Empty
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Floor Turn
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Inside
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Normal Roof
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Normal Upper Turn
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Normal Upper Wall
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Roof filler
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Roof turn
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Single door
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (1)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (2)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (3)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (4)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (5)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  Connectors:
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
-  - Connectors: []
   - Connectors: []
   BaseWeight: 1
   CanNeighborSelf: 1
@@ -4053,7 +3868,7 @@ Transform:
   m_Children:
   - {fileID: 1719497325}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1603227262
 MonoBehaviour:
@@ -4078,6 +3893,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -4107,6 +3925,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -4119,12 +3940,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -4134,13 +3949,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -4368,7 +4180,7 @@ Transform:
   m_Children:
   - {fileID: 1103764627}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1726379983
 MonoBehaviour:
@@ -4393,6 +4205,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -4422,6 +4237,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -4434,12 +4252,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -4449,13 +4261,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -4490,7 +4299,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1736545035
 Transform:
   m_ObjectHideFlags: 0
@@ -4504,7 +4313,7 @@ Transform:
   m_Children:
   - {fileID: 656826264}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1736545036
 MonoBehaviour:
@@ -4529,6 +4338,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -4558,6 +4370,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -4570,12 +4385,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -4585,13 +4394,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -4665,6 +4471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 12 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
 --- !u!1 &1901330548
@@ -4697,7 +4507,7 @@ Transform:
   m_Children:
   - {fileID: 901709867}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1901330550
 MonoBehaviour:
@@ -4722,6 +4532,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -4751,6 +4564,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -4763,12 +4579,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -4778,13 +4588,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
@@ -4835,7 +4642,7 @@ Transform:
   m_Children:
   - {fileID: 1557468181}
   m_Father: {fileID: 748898043}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2128750875
 MonoBehaviour:
@@ -4860,6 +4667,9 @@ MonoBehaviour:
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   - TileType: Boring Floor
@@ -4889,6 +4699,9 @@ MonoBehaviour:
   - TileType: Normal Upper Wall
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
   - TileType: Roof filler
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -4901,12 +4714,6 @@ MonoBehaviour:
   - TileType: Tile (1)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (10)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (11)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
   - TileType: Tile (2)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
@@ -4916,13 +4723,10 @@ MonoBehaviour:
   - TileType: Tile (4)
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (5)
+  - TileType: Wall turn window left
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
-  - TileType: Tile (6)
-    Sides: 000000000000000000000000000000000000000000000000
-    Overrides: 000000000000
-  - TileType: Tile (7)
+  - TileType: Wall Turn window right
     Sides: 000000000000000000000000000000000000000000000000
     Overrides: 000000000000
   Connectors:
