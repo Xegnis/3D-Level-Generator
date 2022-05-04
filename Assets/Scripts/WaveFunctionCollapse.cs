@@ -1,110 +1,49 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using StixGames.TileComposer;
 
 public class WaveFunctionCollapse : Generator
 {
-
-    public WFCBlock[,,] blocks;
-    public int minHeight, maxHeight;
-    public GameObject blankBlock;
+    public TileComposer tileComposer;
+    public int[] dimensions;
+    public TileSlice[] fixedTiles;
 
     public override void Generate()
     {
-        
+        TileComposer tc = Instantiate(tileComposer);
+        tc.GridSize = dimensions;
+        GenerateFixedTiles();
+        tc.FixedTiles = fixedTiles;
+        tc.GenerateOnStart = true;
     }
 
-    public void Iterate ()
+    void Start()
     {
-        for (int x = 0; x < blocks.GetLength(0); x++)
-        {
-            for (int y = 0; y < blocks.GetLength(1); y++)
-            {
-                for (int z = 0; z < blocks.GetLength(2); z++)
-                {
-                    if (blocks[x, y, z] != null)
-                        continue;
-                    if (x == 0 || x == blocks.GetLength(0) - 1 ||
-                        y == 0 || y == blocks.GetLength(1) - 1 ||
-                        z == blocks.GetLength(2) - 1)
-                    {
-
-                    }
-                }
-            }
-        }
-    }
-    /*
-    public List<GameObject> GetLegalBlock (int x, int y, int z)
-    {
-        List<GameObject> list = new List<GameObject>();
-        if (x == 0 || x == blocks.GetLength(0) - 1 ||
-            y == 0 || y == blocks.GetLength(1) - 1 ||
-            z == blocks.GetLength(2) - 1)
-        {
-            list.Add(blankBlock);
-        }
-        else
-        {
-            bool done = false;
-            if (!done && blocks[x - 1, y, z] != null)
-            {
-                done = true;
-                foreach (GameObject block in blocks[x - 1, y, z].neighborsRight)
-                {
-                    if (CheckValidBlock(block, x, y, z))
-                    {
-                        list.Add(block);
-                    }
-                }
-            }
-            if (!done && blocks[x + 1, y, z] != null)
-            {
-                done = true;
-                foreach (GameObject block in blocks[x + 1, y, z].neighborsLeft)
-                {
-                    if (CheckValidBlock(block, x, y, z))
-                    {
-                        list.Add(block);
-                    }
-                }
-            }
-
-        }
+        Generate();
     }
 
-    public bool CheckValidBlock (GameObject block, int x, int y, int z)
+    void GenerateFixedTiles ()
     {
-        if (x > 0 && blocks[x - 1, y, z] != null)
-        {
-            if (!blocks[x - 1, y, z].neighborsRight.Contains(block))
-                return false;
-        }
-        if (x < blocks.GetLength(0) - 1 && blocks[x + 1, y, z] != null)
-        {
-            if (!blocks[x + 1, y, z].neighborsLeft.Contains(block))
-                return false;
-        }
-        if (y > 0 && blocks[x, y - 1, z] != null)
-        {
-            if (!blocks[x, y - 1, z].neighborsBack.Contains(block))
-                return false;
-        }
-        if (y < blocks.GetLength(1) - 1 && blocks[x, y + 1, z] != null)
-        {
-            if (!blocks[x, y + 1, z].neighborsFront.Contains(block))
-                return false;
-        }
-        if (z > 0 && blocks[x, y, z - 1] != null)
-        {
-            if (!blocks[x, y, z - 1].neighborsUp.Contains(block))
-                return false;
-        }
-        if (z < blocks.GetLength(2) - 1 && blocks[x, y, z + 1] != null)
-        {
-            if (!blocks[x, y, z + 1].neighborsDown.Contains(block))
-                return false;
-        }
-        return true;
-    }*/
+        fixedTiles[0].Dimensions[1].End = dimensions[1] - 1;
+        fixedTiles[0].Dimensions[2].End = dimensions[2] - 1;
+
+        fixedTiles[1].Dimensions[0].End = dimensions[0] - 1;
+        fixedTiles[1].Dimensions[1].End = dimensions[1] - 1;
+
+        fixedTiles[2].Dimensions[0].Start = dimensions[0] - 1;
+        fixedTiles[2].Dimensions[0].End = dimensions[0] - 1;
+        fixedTiles[2].Dimensions[1].End = dimensions[1] - 1;
+        fixedTiles[2].Dimensions[2].End = dimensions[2] - 1;
+
+        fixedTiles[3].Dimensions[0].End = dimensions[0] - 1;
+        fixedTiles[3].Dimensions[1].End = dimensions[1] - 1;
+        fixedTiles[3].Dimensions[2].Start = dimensions[2] - 1;
+        fixedTiles[3].Dimensions[2].End = dimensions[2] - 1;
+
+        fixedTiles[3].Dimensions[0].End = dimensions[0] - 1;
+        fixedTiles[3].Dimensions[1].Start = dimensions[1] - 1;
+        fixedTiles[3].Dimensions[1].End = dimensions[1] - 1;
+        fixedTiles[3].Dimensions[2].End = dimensions[2] - 1;
+    }
 }

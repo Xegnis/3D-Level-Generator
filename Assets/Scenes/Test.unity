@@ -1317,6 +1317,103 @@ MonoBehaviour:
   BaseWeight: 1
   CanNeighborSelf: 1
   CustomProperties: []
+--- !u!1 &485748378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 485748380}
+  - component: {fileID: 485748379}
+  m_Layer: 0
+  m_Name: WFC Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &485748379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485748378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be647a0c390acf74da9f6718078f9d44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origin: {x: 0, y: 0, z: 0}
+  xSize: 0
+  ySize: 0
+  tileComposer: {fileID: 767707136}
+  dimensions: 07000000070000000a000000
+  fixedTiles:
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 7
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 7
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 0
+  - TileType: Empty
+    Dimensions:
+    - Start: 7
+      End: 7
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 7
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 7
+    - Start: 0
+      End: 11
+    - Start: 7
+      End: 7
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 7
+    - Start: 11
+      End: 11
+    - Start: 0
+      End: 7
+  - TileType: Floor Turn
+    Dimensions:
+    - Start: 1
+      End: 1
+    - Start: 0
+      End: 0
+    - Start: 1
+      End: 1
+--- !u!4 &485748380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485748378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.19563, y: 7.496644, z: -16.664106}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &567696487
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,7 +2688,7 @@ MonoBehaviour:
   ParallelInstances: 1
   Timeout: 1
   GenerateAsynchronously: 0
-  GenerateOnStart: 1
+  GenerateOnStart: 0
   DestroyAfterUse: 0
   InstantiateModelWhenGenerated: 1
   OnModelGenerated:
@@ -2602,55 +2699,7 @@ MonoBehaviour:
       m_Calls: []
   GridSize: 080000000c00000008000000
   BlockedTiles: []
-  FixedTiles:
-  - TileType: Empty
-    Dimensions:
-    - Start: 0
-      End: 0
-    - Start: 0
-      End: 11
-    - Start: 0
-      End: 7
-  - TileType: Empty
-    Dimensions:
-    - Start: 0
-      End: 7
-    - Start: 0
-      End: 11
-    - Start: 0
-      End: 0
-  - TileType: Empty
-    Dimensions:
-    - Start: 7
-      End: 7
-    - Start: 0
-      End: 11
-    - Start: 0
-      End: 7
-  - TileType: Empty
-    Dimensions:
-    - Start: 0
-      End: 7
-    - Start: 0
-      End: 11
-    - Start: 7
-      End: 7
-  - TileType: Empty
-    Dimensions:
-    - Start: 0
-      End: 7
-    - Start: 11
-      End: 11
-    - Start: 0
-      End: 7
-  - TileType: Door left
-    Dimensions:
-    - Start: 3
-      End: 3
-    - Start: 0
-      End: 0
-    - Start: 1
-      End: 1
+  FixedTiles: []
   SATSettings:
     RandomizeConstraintOrder: 1
     WeightPriority: 0
