@@ -41,9 +41,9 @@ public class WaveFunctionCollapse : Generator
         fixedTiles[3].Dimensions[2].Start = dimensions[2] - 1;
         fixedTiles[3].Dimensions[2].End = dimensions[2] - 1;
 
-        fixedTiles[3].Dimensions[0].End = dimensions[0] - 1;
-        fixedTiles[3].Dimensions[1].Start = dimensions[1] - 1;
-        fixedTiles[3].Dimensions[1].End = dimensions[1] - 1;
-        fixedTiles[3].Dimensions[2].End = dimensions[2] - 1;
+        fixedTiles[4].Dimensions[0].End = dimensions[0] - 1;
+        fixedTiles[4].Dimensions[1].Start = dimensions[1] - 1;
+        fixedTiles[4].Dimensions[1].End = dimensions[1] - 1;
+        fixedTiles[4].Dimensions[2].End = dimensions[2] - 1;
     }
 }
