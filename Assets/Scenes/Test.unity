@@ -2541,7 +2541,7 @@ MonoBehaviour:
     Weight: 1
     IsCompressible: 0
   - Name: Inside
-    Weight: 1
+    Weight: 35
     IsCompressible: 0
   Connectors:
   - Name: WallVertical
@@ -2688,7 +2688,7 @@ MonoBehaviour:
   ParallelInstances: 1
   Timeout: 1
   GenerateAsynchronously: 0
-  GenerateOnStart: 0
+  GenerateOnStart: 1
   DestroyAfterUse: 0
   InstantiateModelWhenGenerated: 1
   OnModelGenerated:
@@ -2699,7 +2699,55 @@ MonoBehaviour:
       m_Calls: []
   GridSize: 080000000c00000008000000
   BlockedTiles: []
-  FixedTiles: []
+  FixedTiles:
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 7
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 7
+    - Start: 0
+      End: 11
+    - Start: 7
+      End: 7
+  - TileType: Empty
+    Dimensions:
+    - Start: 7
+      End: 7
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 7
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 7
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 0
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 7
+    - Start: 11
+      End: 11
+    - Start: 0
+      End: 7
+  - TileType: Floor Turn
+    Dimensions:
+    - Start: 1
+      End: 1
+    - Start: 0
+      End: 0
+    - Start: 1
+      End: 1
   SATSettings:
     RandomizeConstraintOrder: 1
     WeightPriority: 0

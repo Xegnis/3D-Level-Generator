@@ -2793,7 +2793,7 @@ GameObject:
   - component: {fileID: 1192646356}
   - component: {fileID: 1192646355}
   m_Layer: 0
-  m_Name: Tile Collection
+  m_Name: Residential Tile Collection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2823,7 +2823,7 @@ MonoBehaviour:
     Weight: 1
     IsCompressible: 0
   - Name: Inside
-    Weight: 1
+    Weight: 35
     IsCompressible: 0
   Connectors:
   - Name: WallVertical
@@ -2991,7 +2991,7 @@ GameObject:
   - component: {fileID: 1297699486}
   - component: {fileID: 1297699485}
   m_Layer: 0
-  m_Name: Composer
+  m_Name: Residential Composer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4632,16 +4632,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: minXSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: minYSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
       propertyPath: tilePrefab
       value: 
       objectReference: {fileID: 2083361884}
     - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
       propertyPath: buildingChance
-      value: 0.7
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 8411975595979303656, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
       propertyPath: m_Name
-      value: Industrial Generator
+      value: Residential Generator
       objectReference: {fileID: 0}
     - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
       propertyPath: m_RootOrder
@@ -4700,7 +4708,7 @@ GameObject:
   - component: {fileID: 2083361886}
   - component: {fileID: 2083361885}
   m_Layer: 0
-  m_Name: WFC Generator
+  m_Name: Residential WFC Generator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
