@@ -11,7 +11,8 @@ public class WaveFunctionCollapse : Generator
 
     public override void Generate()
     {
-        TileComposer tc = Instantiate(tileComposer);
+        TileComposer tc = Instantiate(tileComposer, transform.position, Quaternion.identity);
+        tc.transform.SetParent(transform);
         tc.GridSize = dimensions;
         GenerateFixedTiles();
         tc.FixedTiles = fixedTiles;
@@ -20,7 +21,7 @@ public class WaveFunctionCollapse : Generator
 
     void Start()
     {
-        Generate();
+        //Generate();
     }
 
     void GenerateFixedTiles ()

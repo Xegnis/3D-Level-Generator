@@ -129,10 +129,11 @@ public class IndustrialGenerator : Generator
     {
         if (Random.value > buildingChance)
             return;
-        GameObject tile = Instantiate(tilePrefab, node.grid.origin + new Vector3(1, 0, 1), Quaternion.identity);
-        float yScale = Random.Range(Mathf.Min(node.grid.xSize, node.grid.ySize), Mathf.Max(node.grid.xSize, node.grid.ySize));
-        tile.transform.localScale = new Vector3(node.grid.xSize - 2, ySize / 15, node.grid.ySize - 2) ;
-        tile.transform.SetParent(transform);
+        GameObject tile = Instantiate(tilePrefab, node.grid.origin + new Vector3(0.5f, 0, 0.5f), Quaternion.identity);
+        WaveFunctionCollapse wfc = tile.GetComponent<WaveFunctionCollapse>();
+        wfc.transform.SetParent(transform);
+        wfc.dimensions = new int[] { node.grid.xSize, Random.Range(6, 13), node.grid.ySize };
+        wfc.Generate();
     }
 
 }

@@ -44,6 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diggerPrefab: {fileID: 3757707866908976269, guid: 7d0835d7f1cc2054da5b99f91f902691, type: 3}
-  stepSize: 10
+  stepSize: 8
   dir: {x: 0, y: 0, z: 1}
-  chanceToSpawnNewDigger: 0.0002
+  chanceToSpawnNewDigger: 0.0005
