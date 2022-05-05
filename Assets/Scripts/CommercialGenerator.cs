@@ -6,7 +6,7 @@ public class CommercialGenerator : Generator
 {
     public GameObject diggerPrefab;
 
-    public override void Generate()
+    /*public override void Generate()
     {
         grid = new Grid2D<Node>(xSize, ySize);
         grid.Initialize();
@@ -19,5 +19,5 @@ public class CommercialGenerator : Generator
         {
             digger.DigOnce();
         }
-    }
+    }*/
 }

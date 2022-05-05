@@ -123,6 +123,336 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &56412981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 56412982}
+  - component: {fileID: 56412983}
+  m_Layer: 0
+  m_Name: 14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &56412982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56412981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.78, y: 0, z: 5.87}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1316610573}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &56412983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56412981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Door left
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 020000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors: []
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!4 &101809051 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+  m_PrefabInstance: {fileID: 1002021518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &110867988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 110867989}
+  - component: {fileID: 110867990}
+  m_Layer: 0
+  m_Name: 17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &110867989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110867988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.93, y: 0, z: 8.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1115899354}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &110867990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110867988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Alt roof
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff00000000ffffffff00000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1001 &123385832
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 110867989}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+      propertyPath: m_Name
+      value: 17
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
 --- !u!1 &125424741
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,8 +544,2334 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &134065188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134065189}
+  - component: {fileID: 134065190}
+  m_Layer: 0
+  m_Name: 9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &134065189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134065188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.96, y: 0, z: 3.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1779422516}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &134065190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134065188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Normal Upper Turn
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: ffffffff00000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  BaseWeight: 8
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1 &201694984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 201694985}
+  - component: {fileID: 201694986}
+  m_Layer: 0
+  m_Name: 8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &201694985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201694984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.57, y: 0, z: 3.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1398506614}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &201694986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201694984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Normal Upper Wall
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  BaseWeight: 10
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1001 &216827423
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 797324173}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_Name
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+--- !u!1001 &339477308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1640190701}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_Name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+--- !u!1 &510717847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 510717848}
+  - component: {fileID: 510717849}
+  m_Layer: 0
+  m_Name: 11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &510717848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510717847}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: 5.89}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 845399605}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &510717849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510717847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Wall Turn window right
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: ffffffff00000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!4 &553142156 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+  m_PrefabInstance: {fileID: 1124490886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &567912917 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+  m_PrefabInstance: {fileID: 1804974291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &577379307
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1022024287}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+      propertyPath: m_Name
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+--- !u!4 &582990063 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5969847f2fc2b3c41ae9ab58bf9f76bf, type: 3}
+  m_PrefabInstance: {fileID: 577379307}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &627560920
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2027447266}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_Name
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+--- !u!1001 &659880111
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2027447266}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_Name
+      value: 12 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!4 &702284964 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+  m_PrefabInstance: {fileID: 1570910029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &704294206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 704294207}
+  - component: {fileID: 704294208}
+  m_Layer: 0
+  m_Name: 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &704294207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704294206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.55, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1402628056}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &704294208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704294206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Tile (3)
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000100000000000000000000000000000000000000
+    Overrides: 000100000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1001 &717968041
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1922857006}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+      propertyPath: m_Name
+      value: 18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+--- !u!1 &769516683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 769516684}
+  - component: {fileID: 769516685}
+  m_Layer: 0
+  m_Name: 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &769516684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769516683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.16, y: 0, z: 3.09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791906551}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &769516685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769516683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Normal window wall
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!4 &771084365 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+  m_PrefabInstance: {fileID: 216827423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &797324172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 797324173}
+  - component: {fileID: 797324174}
+  m_Layer: 0
+  m_Name: 20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &797324173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797324172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.35, y: 0, z: 8.55}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 771084365}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &797324174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797324172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Roof turn
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: ffffffff00000000ffffffff00000000ffffffff00000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1 &833115192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 833115193}
+  - component: {fileID: 833115194}
+  m_Layer: 0
+  m_Name: 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &833115193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833115192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.94, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 702284964}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &833115194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833115192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Tile (4)
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 00000000ffffffffffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!4 &845399605 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+  m_PrefabInstance: {fileID: 977327510}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &880832763 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+  m_PrefabInstance: {fileID: 659880111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &886715485 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+  m_PrefabInstance: {fileID: 1048767517}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &899160963
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 134065189}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+      propertyPath: m_Name
+      value: 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+--- !u!1001 &912102543
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1759840055}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_Name
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!4 &917077277 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+  m_PrefabInstance: {fileID: 1257381804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &977327510
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 510717848}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+      propertyPath: m_Name
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
+--- !u!1001 &1002021518
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1485667879}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_Name
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!4 &1020375796 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+  m_PrefabInstance: {fileID: 912102543}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1022024286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1022024287}
+  - component: {fileID: 1022024288}
+  m_Layer: 0
+  m_Name: 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1022024287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022024286}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.13, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 582990063}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1022024288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022024286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Boring balcony
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!4 &1035089569 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+  m_PrefabInstance: {fileID: 1647979235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1048767517
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2125756814}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_Name
+      value: 13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+--- !u!1 &1068217794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1068217795}
+  - component: {fileID: 1068217796}
+  m_Layer: 0
+  m_Name: 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1068217795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068217794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.01, y: 0, z: 3.19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 553142156}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1068217796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068217794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Wall turn window left
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: ffffffff00000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1 &1079584069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1079584070}
+  - component: {fileID: 1079584071}
+  m_Layer: 0
+  m_Name: 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1079584070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079584069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.29, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1731433776}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1079584071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079584069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Tile (2)
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000100000000000000000000000000000000000000
+    Overrides: 000100000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 020000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors: []
+  - Connectors: []
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!4 &1115899354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e0e417ac74ec1d84a90a98dd095bad10, type: 3}
+  m_PrefabInstance: {fileID: 123385832}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1124490886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1068217795}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+      propertyPath: m_Name
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+--- !u!1 &1172843834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1172843835}
+  - component: {fileID: 1172843836}
+  m_Layer: 0
+  m_Name: 16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1172843835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172843834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.95, y: 0, z: 8.32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 917077277}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1172843836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172843834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Alt roof turn
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 00000000ffffffffffffffff00000000ffffffff00000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!4 &1184799354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+  m_PrefabInstance: {fileID: 627560920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1192646354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1192646356}
+  - component: {fileID: 1192646355}
+  m_Layer: 0
+  m_Name: Tile Collection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1192646355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192646354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6549ffed087c0fa4c9c5416f12f079bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ExampleModels: []
+  GridType: 1
+  GridScale:
+  - 1
+  - 1
+  - 1
+  HexagonNormalizeInnerRadius: 0
+  EmptyTiles:
+  - Name: Empty
+    Weight: 1
+    IsCompressible: 0
+  - Name: Inside
+    Weight: 1
+    IsCompressible: 0
+  Connectors:
+  - Name: WallVertical
+    IsBidirectional: 1
+  - Name: Wall
+    IsBidirectional: 1
+  - Name: WallVerticalEdge
+    IsBidirectional: 1
+  - Name: Floor
+    IsBidirectional: 1
+  - Name: Roof
+    IsBidirectional: 1
+  CustomValues: []
+--- !u!4 &1192646356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192646354}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: -100, y: 3.2467692, z: -100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1640190701}
+  - {fileID: 1079584070}
+  - {fileID: 704294207}
+  - {fileID: 833115193}
+  - {fileID: 1022024287}
+  - {fileID: 769516684}
+  - {fileID: 201694985}
+  - {fileID: 134065189}
+  - {fileID: 1068217795}
+  - {fileID: 510717848}
+  - {fileID: 1759840055}
+  - {fileID: 2125756814}
+  - {fileID: 56412982}
+  - {fileID: 2027447266}
+  - {fileID: 1172843835}
+  - {fileID: 110867989}
+  - {fileID: 1922857006}
+  - {fileID: 1809013406}
+  - {fileID: 797324173}
+  - {fileID: 1485667879}
+  - {fileID: 1380719894}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &1223921075
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +2901,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1223921077
 MonoBehaviour:
@@ -259,12 +2915,164 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17b91fc94b6fbde4faffde761df5d748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSize: 1024
-  ySize: 1024
+  xSize: 128
+  ySize: 128
+  roadLeftPrefab: {fileID: 2810015011961514720, guid: ac34cd38531839c49bc49f6a1552bd16, type: 3}
+  roadEmptyPrefab: {fileID: 4818525294038320985, guid: a74e7110dad34c2498e671ac7e4b31e5, type: 3}
+  digger: {fileID: 1791815667056019469, guid: 693192bca58fb0a48acc76fc4c8d2194, type: 3}
   residentialGenerator: {fileID: 5114740581426407795, guid: ffb0a8251ae082443828e2ce779708ff, type: 3}
   commercialGenerator: {fileID: 3279396712283787280, guid: 4d9dd2566e7cd8d43ab8b30396a26b73, type: 3}
   industrialGenerator: {fileID: 8411975595979303656, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
-  modelPack: {fileID: 0}
+--- !u!1001 &1257381804
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1172843835}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+      propertyPath: m_Name
+      value: 16
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
+--- !u!1 &1297699484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1297699486}
+  - component: {fileID: 1297699485}
+  m_Layer: 0
+  m_Name: Composer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1297699485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297699484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f2bfca8f3421c4cb1d5ee8375cfa7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileCollection: {fileID: 1192646355}
+  Seed: 0
+  MaxTries: 30
+  SolverTypeSelection: 0
+  ParallelInstances: 1
+  Timeout: 1
+  GenerateAsynchronously: 0
+  GenerateOnStart: 0
+  DestroyAfterUse: 0
+  InstantiateModelWhenGenerated: 1
+  OnModelGenerated:
+    m_PersistentCalls:
+      m_Calls: []
+  OnModelGenerationFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  GridSize: 080000000c00000008000000
+  BlockedTiles: []
+  FixedTiles: []
+  SATSettings:
+    RandomizeConstraintOrder: 1
+    WeightPriority: 0
+    PercentageConstraints: []
+    AbsoluteConstraints: []
+    CustomPropertyConstraints: []
+  WFCSettings:
+    UseFailureRecovery: 1
+    FailureResetRadius: 2
+    RadiusSizeMultiplier: 1
+    BacktrackSteps: 2
+    BacktrackStepsMultiplier: 10
+    FailureDecay: 20
+    FailureAccelerationMultiplier: 10
+    FailureAccelerationDecay: 100
+  DoSlowGeneration: 0
+  IsPaused: 0
+  DoStep: 0
+  TimeStep: 0.1
+  SolverStepsPerStep: 1
+  UseFastDebugMode: 0
+  EmptyDebugObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  SlowGenerationMaterial: {fileID: 0}
+  Transparency: 0.1
+--- !u!4 &1297699486
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297699484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 90.5, y: 3.746769, z: 109.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1310699914 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+  m_PrefabInstance: {fileID: 717968041}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1311718013
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,3 +3190,1660 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!4 &1316610573 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+  m_PrefabInstance: {fileID: 1340050090}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1332077857
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 769516684}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+      propertyPath: m_Name
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+--- !u!1001 &1340050090
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 56412982}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_Name
+      value: 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+--- !u!1 &1380719893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1380719894}
+  - component: {fileID: 1380719895}
+  m_Layer: 0
+  m_Name: 22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1380719894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380719893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.69, y: 0, z: 5.51}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1035089569}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1380719895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380719893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Boring Floor
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors: []
+  BaseWeight: 6
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!4 &1398506614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+  m_PrefabInstance: {fileID: 2009834112}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1402628056 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+  m_PrefabInstance: {fileID: 1555517810}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1485667878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1485667879}
+  - component: {fileID: 1485667880}
+  m_Layer: 0
+  m_Name: 21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1485667879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485667878}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.72, y: 0, z: 8.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 101809051}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1485667880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485667878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Roof filler
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 00000000000000000000000000000000ffffffff00000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 0000000000000000000000000000000000000000ffffffff
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1001 &1496156640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1079584070}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 197349563de498a459a506115ce128f2, type: 3}
+      propertyPath: m_Name
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 197349563de498a459a506115ce128f2, type: 3}
+--- !u!1001 &1555517810
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 704294207}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+      propertyPath: m_Name
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
+--- !u!1001 &1570910029
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 833115193}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+      propertyPath: m_Name
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
+--- !u!1 &1640190700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1640190701}
+  - component: {fileID: 1640190702}
+  m_Layer: 0
+  m_Name: 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1640190701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640190700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1667334676}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1640190702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640190700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Tile (1)
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 020000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1001 &1647979235
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1380719894}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_Name
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!4 &1667334676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+  m_PrefabInstance: {fileID: 339477308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1731433776 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 197349563de498a459a506115ce128f2, type: 3}
+  m_PrefabInstance: {fileID: 1496156640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1759840054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1759840055}
+  - component: {fileID: 1759840056}
+  m_Layer: 0
+  m_Name: 12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1759840055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759840054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.91, y: 0, z: 5.96}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1020375796}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1759840056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759840054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Floor Turn
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 00000000ffffffffffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!4 &1779422516 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
+  m_PrefabInstance: {fileID: 899160963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1791906551 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+  m_PrefabInstance: {fileID: 1332077857}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1804974291
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1809013406}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_Name
+      value: 19
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+--- !u!1 &1809013405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1809013406}
+  - component: {fileID: 1809013407}
+  m_Layer: 0
+  m_Name: 19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1809013406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809013405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.32, y: 0, z: 8.62}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 567912917}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1809013407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809013405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Normal Roof
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff00000000ffffffff00000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1 &1922857005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1922857006}
+  - component: {fileID: 1922857007}
+  m_Layer: 0
+  m_Name: 18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1922857006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922857005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.84, y: 0, z: 8.58}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1310699914}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1922857007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922857005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Alt roof filler
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 00000000000000000000000000000000ffffffff00000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 0000000000000000000000000000000000000000ffffffff
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1001 &2009834112
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 201694985}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+      propertyPath: m_Name
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 18bfa88d4beb95142aa947d7a56b708f, type: 3}
+--- !u!1 &2027447265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2027447266}
+  - component: {fileID: 2027447267}
+  m_Layer: 0
+  m_Name: 15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2027447266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027447265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.19, y: 0, z: 5.513}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1184799354}
+  - {fileID: 880832763}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2027447267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027447265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Single door
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1 &2083361884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2083361886}
+  - component: {fileID: 2083361885}
+  m_Layer: 0
+  m_Name: WFC Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2083361885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083361884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be647a0c390acf74da9f6718078f9d44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origin: {x: 0, y: 0, z: 0}
+  xSize: 0
+  ySize: 0
+  tileComposer: {fileID: 1297699485}
+  dimensions: 080000000c00000008000000
+  fixedTiles:
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 7
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 7
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 0
+  - TileType: Empty
+    Dimensions:
+    - Start: 7
+      End: 7
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 7
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 7
+    - Start: 0
+      End: 11
+    - Start: 7
+      End: 7
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 7
+    - Start: 11
+      End: 11
+    - Start: 0
+      End: 7
+  - TileType: Floor Turn
+    Dimensions:
+    - Start: 1
+      End: 1
+    - Start: 0
+      End: 0
+    - Start: 1
+      End: 1
+--- !u!4 &2083361886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083361884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.19563, y: 7.496644, z: -16.664106}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2125756813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2125756814}
+  - component: {fileID: 2125756815}
+  m_Layer: 0
+  m_Name: 13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2125756814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125756813}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.1, y: 0, z: 5.554}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 886715485}
+  m_Father: {fileID: 1192646356}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2125756815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125756813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Door right
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Alt roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Alt roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring balcony
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000100000000000000000000000000000000000000
+    Overrides: 000100000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Upper Wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal window wall
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (1)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (2)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (3)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Tile (4)
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall turn window left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn window right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []

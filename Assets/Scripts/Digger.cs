@@ -4,49 +4,80 @@ using UnityEngine;
 
 public class Digger : MonoBehaviour
 {
-    public GameObject buildingPrefab;
-    public GameObject commercialGenerator;
     public Grid2D<Node> grid;
-    public Vector3Int defaultDirection;
-    public int stepSize;
+    public GameObject diggerPrefab;
+    public static int minStepSize = 4;
+    public static int counter = 0;
+
+    Vector3[] directions = { Vector3.left, Vector3.right, Vector3.forward, Vector3.back };
+
     [Header("Parameters")]
-    public float chanceToTurnLeft;
-    public float chanceToTurnRight;
-    public float chanceToTurnAround;
-    public float chanceToStamp;
+    public int stepSize;
+    public Vector3 dir;
+    public float chanceToSpawnNewDigger = 0.005f;
+
+    float _currentChance;
+
+    void Start()
+    {
+        counter++;
+    }
+
+    void OnDestroy()
+    {
+        counter--;
+        if (counter == 0)
+        {
+            LevelGenerator.lg.GenerateRoad();
+        }
+    }
 
     public void DigOnce()
     {
-        if (Random.value < chanceToTurnLeft)
-            Turn(90);
-        else if (Random.value < chanceToTurnRight)
-            Turn(-90);
-        else if (Random.value < chanceToTurnAround)
-            Turn(180);
-        transform.position += transform.right * stepSize;
-        if (Random.value > chanceToStamp)
-            return;
         Vector2Int pos = grid.WorldToGrid(transform.position.x, transform.position.z);
-        if (pos.x > grid.xSize - stepSize || pos.x < 0 || pos.y < 0 || pos.y > grid.ySize - stepSize)
+        if (transform.position.x < 0 || (pos.x + stepSize) >= grid.xSize || transform.position.z < 0 || (pos.y + stepSize) >= grid.ySize)
         {
-            Turn(90);
-            return;
-        }    
-        if (grid.GetAt(pos.x, pos.y).completed)
-        {
-            return;
+            Destroy(gameObject);
         }
-
-        GameObject building = Instantiate(buildingPrefab, transform.position, Quaternion.identity);
-        building.transform.SetParent(commercialGenerator.transform);
         for (int x = 0; x < stepSize; x++)
         {
             for (int y = 0; y < stepSize; y++)
             {
-                grid.GetAt(pos.x + x, pos.y + y).completed = true;
+                Node node = grid.GetAt(pos.x + x, pos.y + y);
+                if (node.completed != true)
+                {
+                    node.completed = true;
+                    _currentChance += chanceToSpawnNewDigger;
+                    node.type = NodeType.Road;
+                }
             }
         }
+        transform.position += dir;
+    }
 
+    public void SpawnNewDigger ()
+    {
+        GameObject diggerObj = Instantiate(diggerPrefab, transform.position, Quaternion.identity);
+        Digger digger = diggerObj.GetComponent<Digger>();
+        digger.grid = grid;
+        do
+        {
+            digger.dir = directions[Random.Range(0, directions.Length)];
+        }
+        while (digger.dir.Equals(dir));
+        digger.stepSize = Random.Range(minStepSize, stepSize - 1);
+        if (digger.dir.Equals(-dir))
+            digger.stepSize = stepSize;
+    }
+
+    void Update()
+    {
+        DigOnce();
+        if (Random.value < _currentChance)
+        {
+            SpawnNewDigger();
+            _currentChance = 0;
+        }
     }
 
     //counterclockwise

@@ -103,7 +103,9 @@ public class IndustrialGenerator : Generator
     {
         if (Random.value < node.currentStopChance)
             return false;
-        if (node.grid.xSize / 3 < minXSize)
+        if (node.grid.xSize > 2 * node.grid.ySize)
+            return true;
+        if (node.grid.xSize / 2 < minXSize)
             return false;
         if (node.grid.ySize < minYSize)
             return false;
@@ -114,9 +116,11 @@ public class IndustrialGenerator : Generator
     {
         if (Random.value < node.currentStopChance)
             return false;
+        if (node.grid.ySize > 2 * node.grid.xSize)
+            return true;
         if (node.grid.xSize < minXSize)
             return false;
-        if (node.grid.ySize / 3 < minYSize)
+        if (node.grid.ySize / 2 < minYSize)
             return false;
         return true;
     }

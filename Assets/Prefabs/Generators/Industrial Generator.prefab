@@ -47,7 +47,7 @@ MonoBehaviour:
   xSize: 256
   ySize: 256
   tilePrefab: {fileID: 6028655461795836596, guid: 6e7e440ba0eac634db818a584e6de113, type: 3}
-  minXSize: 24
-  minYSize: 16
-  stopChance: 0.1
-  buildingChance: 0.7
+  minXSize: 8
+  minYSize: 8
+  stopChance: 0
+  buildingChance: 1
