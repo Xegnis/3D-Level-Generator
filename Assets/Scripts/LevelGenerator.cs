@@ -33,16 +33,19 @@ public class LevelGenerator : MonoBehaviour
     public static LevelGenerator lg;
     public int xSize;
     public int ySize;
+    public Vector2Int IndustrialRequirement;
     public GameObject roadLeftPrefab;
     public GameObject roadEmptyPrefab;
+    public bool generateIndustrial = false;
     [Header("Generators")]
     public GameObject digger;
-    public GameObject residentialGenerator;
-    public GameObject commercialGenerator;
-    public GameObject industrialGenerator;
+    public GameObject bpGenerator;
+    public GameObject bpGeneratorIndustrial;
     public Grid2D<Node> mainGrid;
 
     bool _roadGenerated, _allGenerated;
+    bool _industrialGenerated;
+    
 
     void Start()
     {
@@ -108,7 +111,7 @@ public class LevelGenerator : MonoBehaviour
 
 
     //Spawn the residential district near the center of the map
-    void SpawnResidential ()
+    /*void SpawnResidential ()
     {
         int xGridLocation = Random.Range(mainGrid.xSize / 4, mainGrid.xSize / 2);
         int yGridLocation = Random.Range(mainGrid.ySize / 4, mainGrid.ySize / 2);
@@ -117,9 +120,9 @@ public class LevelGenerator : MonoBehaviour
         Generator rg = generator.GetComponent<Generator>();
         rg.Generate();
         mainGrid.Import(rg.grid, xGridLocation, yGridLocation);
-    }
+    }*/
 
-    void SpawnCommercial ()
+    /*void SpawnCommercial ()
     {
         int xGridLocation = Random.Range(mainGrid.xSize / 4, mainGrid.xSize / 2);
         int yGridLocation = Random.Range(mainGrid.ySize / 4, mainGrid.ySize / 2);
@@ -128,12 +131,22 @@ public class LevelGenerator : MonoBehaviour
         Generator rg = generator.GetComponent<Generator>();
         rg.Generate();
         mainGrid.Import(rg.grid, xGridLocation, yGridLocation);
-    }
+    }*/
 
-    void SpawnIndustrial (int x, int y, int xSize, int ySize)
+    void SpawnBP (int x, int y, int xSize, int ySize)
     {
         Vector3 worldPos = mainGrid.GridToWorld(x, y);
-        GameObject generator = Instantiate(industrialGenerator, worldPos, Quaternion.identity);
+        GameObject generator = Instantiate(bpGenerator, worldPos, Quaternion.identity);
+        Generator rg = generator.GetComponent<Generator>();
+        rg.xSize = xSize;
+        rg.ySize = ySize;
+        rg.Generate();
+    }
+
+    void SpawnBPIndustrial(int x, int y, int xSize, int ySize)
+    {
+        Vector3 worldPos = mainGrid.GridToWorld(x, y);
+        GameObject generator = Instantiate(bpGeneratorIndustrial, worldPos, Quaternion.identity);
         Generator rg = generator.GetComponent<Generator>();
         rg.xSize = xSize;
         rg.ySize = ySize;
@@ -161,13 +174,13 @@ public class LevelGenerator : MonoBehaviour
                 if (x == mainGrid.xSize - 1 && y == mainGrid.ySize - 1)
                 {
                     _allGenerated = true;
-                    Debug.Log("All Done");
+                    //Debug.Log("All Done");
                     return;
                 }
                 if (!mainGrid.GetAt(x, y).completed)
                 {
                     pos = new Vector2Int(x, y);
-                    Debug.Log("Working on " + pos);
+                    //Debug.Log("Working on " + pos);
                     break;
                 }
             }
@@ -193,18 +206,24 @@ public class LevelGenerator : MonoBehaviour
             }
             ySize = y - pos.y;
         }
-        Debug.Log("X Size: " + xSize + ", Y Size: " + ySize);
+        //Debug.Log("X Size: " + xSize + ", Y Size: " + ySize);
         for (int x = 0; x <= xSize; x++)
         {
             for (int y = 0; y <= ySize; y++)
             {
                 mainGrid.GetAt(x + pos.x, y + pos.y).completed = true;
-                Debug.Log("Marked");
+                //Debug.Log("Marked");
             }
         }
         if (xSize >= MIN_X_SIZE && ySize >= MIN_Y_SIZE)
         {
-            SpawnIndustrial(pos.x, pos.y, xSize, ySize);
+            if (generateIndustrial && !_industrialGenerated && xSize > IndustrialRequirement.x && ySize > IndustrialRequirement.y)
+            {
+                SpawnBPIndustrial(pos.x, pos.y, xSize, ySize);
+                _industrialGenerated = true;
+            }
+            else
+                SpawnBP(pos.x, pos.y, xSize, ySize);
         }
     }
 }

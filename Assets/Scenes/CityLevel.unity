@@ -123,6 +123,113 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &33229339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 33229340}
+  - component: {fileID: 33229341}
+  m_Layer: 0
+  m_Name: 15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &33229340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33229339}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.19, y: 0, z: 5.513}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 683087720}
+  - {fileID: 129718285}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &33229341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33229339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Single door
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1_1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
 --- !u!1 &56412981
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,6 +653,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &129718284
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 33229340}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_Name
+      value: 12 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!4 &129718285 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+  m_PrefabInstance: {fileID: 129718284}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &134065188
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,6 +1046,112 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+--- !u!1 &261033136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261033137}
+  - component: {fileID: 261033138}
+  m_Layer: 0
+  m_Name: 22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261033137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261033136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.69, y: 0, z: 5.51}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1803189577}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &261033138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261033136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Boring Floor
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1_1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors: []
+  BaseWeight: 6
+  CanNeighborSelf: 1
+  CustomProperties: []
 --- !u!1001 &339477308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -934,6 +1213,344 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
+--- !u!1001 &428505950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 703325502}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_Name
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!4 &428505951 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+  m_PrefabInstance: {fileID: 428505950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &490329274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1316401022}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_Name
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!4 &490329275 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+  m_PrefabInstance: {fileID: 490329274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &497838113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497838114}
+  - component: {fileID: 497838115}
+  m_Layer: 0
+  m_Name: 13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497838114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497838113}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.1, y: 0, z: 5.554}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1153802400}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &497838115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497838113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Door right
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1_1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000100000000000000000000000000000000000000
+    Overrides: 000100000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
+--- !u!1 &502356898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 502356899}
+  - component: {fileID: 502356900}
+  m_Layer: 0
+  m_Name: 19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &502356899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502356898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.32, y: 0, z: 8.62}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2061214922}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &502356900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502356898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Normal Roof
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1_1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff00000000ffffffff00000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
 --- !u!1 &510717847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,11 +1880,298 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!1001 &683087719
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 33229340}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_Name
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+--- !u!4 &683087720 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9668de6f8d90d2e488ffaf3c7c28a08f, type: 3}
+  m_PrefabInstance: {fileID: 683087719}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &699977538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 699977540}
+  - component: {fileID: 699977539}
+  m_Layer: 0
+  m_Name: Industrial WFC Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &699977539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699977538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7d99bff829d3be438812cacd835d3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origin: {x: 0, y: 0, z: 0}
+  xSize: 0
+  ySize: 0
+  tileComposer: {fileID: 1515758086}
+  dimensions: 0c000000100000000c000000
+  fixedTiles:
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 0
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 0
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 0
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 0
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 0
+  - TileType: Floor Turn
+    Dimensions:
+    - Start: 1
+      End: 1
+    - Start: 0
+      End: 0
+    - Start: 1
+      End: 1
+  - TileType: Inside
+    Dimensions:
+    - Start: 3
+      End: 1
+    - Start: 0
+      End: 0
+    - Start: 3
+      End: 1
+  - TileType: Chimney 1_1
+    Dimensions:
+    - Start: 3
+      End: 1
+    - Start: 1
+      End: 1
+    - Start: 3
+      End: 1
+--- !u!4 &699977540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699977538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.19563, y: 7.496644, z: -16.664106}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &702284964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fc918d5db69820745b66c5bafb28290f, type: 3}
   m_PrefabInstance: {fileID: 1570910029}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &703325501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 703325502}
+  - component: {fileID: 703325503}
+  m_Layer: 0
+  m_Name: 12 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &703325502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703325501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.91, y: 0, z: 8.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 428505951}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &703325503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703325501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Wall Turn
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1_1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 00000000ffffffffffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
 --- !u!1 &704294206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,6 +2362,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
+--- !u!1001 &737891046
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1371266062}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_Name
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!4 &737891047 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+  m_PrefabInstance: {fileID: 737891046}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &769516683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1871,6 +2837,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 85a30d96b778b2b4899605dc2f9768e4, type: 3}
   m_PrefabInstance: {fileID: 977327510}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &862888161
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1215518242}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+      propertyPath: m_Name
+      value: 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+--- !u!4 &862888162 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+  m_PrefabInstance: {fileID: 862888161}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &880832763 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
@@ -2000,6 +3028,114 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4aeb16cf8fc43c14ebcdb0c7edd560a9, type: 3}
   m_PrefabInstance: {fileID: 1257381804}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &974852279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 974852280}
+  - component: {fileID: 974852281}
+  m_Layer: 0
+  m_Name: 12 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &974852280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974852279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.84, y: 0, z: 8.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1512028287}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &974852281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974852279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Wall Normal
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1_1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors:
+    - Name: Wall
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
 --- !u!1001 &977327510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2644,6 +3780,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8022980f7eb21804a803110f900327d6, type: 3}
+--- !u!1001 &1153802399
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 497838114}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+      propertyPath: m_Name
+      value: 13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+--- !u!4 &1153802400 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ca4b77d851d3c3b42a8a928521e9f030, type: 3}
+  m_PrefabInstance: {fileID: 1153802399}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1172843834
 GameObject:
   m_ObjectHideFlags: 0
@@ -2872,6 +4070,110 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!1 &1215518241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1215518242}
+  - component: {fileID: 1215518243}
+  m_Layer: 0
+  m_Name: 14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1215518242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215518241}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.78, y: 0, z: 5.87}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 862888162}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1215518243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215518241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Door left
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1_1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 020000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 0000000000000000ffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000ffffffff0000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors: []
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: WallVertical
+      ConnectionType: 3
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
 --- !u!1 &1223921075
 GameObject:
   m_ObjectHideFlags: 0
@@ -2917,12 +4219,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xSize: 128
   ySize: 128
+  IndustrialRequirement: {x: 20, y: 20}
   roadLeftPrefab: {fileID: 2810015011961514720, guid: ac34cd38531839c49bc49f6a1552bd16, type: 3}
   roadEmptyPrefab: {fileID: 4818525294038320985, guid: a74e7110dad34c2498e671ac7e4b31e5, type: 3}
   digger: {fileID: 1791815667056019469, guid: 693192bca58fb0a48acc76fc4c8d2194, type: 3}
-  residentialGenerator: {fileID: 5114740581426407795, guid: ffb0a8251ae082443828e2ce779708ff, type: 3}
-  commercialGenerator: {fileID: 3279396712283787280, guid: 4d9dd2566e7cd8d43ab8b30396a26b73, type: 3}
-  industrialGenerator: {fileID: 1947747854}
+  bpGenerator: {fileID: 1947747854}
+  bpGeneratorIndustrial: {fileID: 2007167304}
 --- !u!1001 &1257381804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3068,6 +4370,112 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1305748472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1305748473}
+  - component: {fileID: 1305748474}
+  m_Layer: 0
+  m_Name: 20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1305748473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305748472}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.35, y: 0, z: 8.55}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1716840410}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1305748474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305748472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Roof turn
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1_1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: ffffffff00000000ffffffff00000000ffffffff00000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors: []
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
 --- !u!4 &1310699914 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ef491b61fd79a1549aa272fa612a97e7, type: 3}
@@ -3150,13 +4558,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311718013}
-  m_LocalRotation: {x: 0.53729963, y: 0, z: 0, w: 0.8433915}
-  m_LocalPosition: {x: 400, y: 300, z: 405.97}
+  m_LocalRotation: {x: 0.42470694, y: -0, z: -0, w: 0.9053309}
+  m_LocalPosition: {x: 64.86, y: 75.8612, z: -13.945084}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 65, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 50.264, y: 0, z: 0}
 --- !u!114 &1311718017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3190,6 +4598,114 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!1 &1316401021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1316401022}
+  - component: {fileID: 1316401023}
+  m_Layer: 0
+  m_Name: 21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1316401022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316401021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.72, y: 0, z: 8.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 490329275}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1316401023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316401021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Roof filler
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1_1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 00000000000000000000000000000000ffffffff00000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 0000000000000000000000000000000000000000ffffffff
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  BaseWeight: 35
+  CanNeighborSelf: 1
+  CustomProperties: []
 --- !u!4 &1316610573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
@@ -3252,6 +4768,106 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
+--- !u!1 &1339044788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1339044789}
+  - component: {fileID: 1339044790}
+  m_Layer: 0
+  m_Name: Chimney 1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1339044789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339044788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 2.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1540044027}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1339044790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339044788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Chimney 1_1
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000010000000
+    Overrides: 010000000001
+  - TileType: Chimney 1_1
+    Sides: 080000000000000000000000010000002000000010000000
+    Overrides: 010000010101
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 00000000ffffffffffffffff00000000ffffffff00000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors: []
+  - Connectors: []
+  - Connectors: []
+  - Connectors: []
+  - Connectors: []
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
 --- !u!1001 &1340050090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3309,6 +4925,112 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 043e8cb68358f5142896942b55cb77d0, type: 3}
+--- !u!1 &1371266061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1371266062}
+  - component: {fileID: 1371266063}
+  m_Layer: 0
+  m_Name: 12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1371266062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371266061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.91, y: 0, z: 5.96}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 737891047}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1371266063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371266061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Floor Turn
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1_1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 00000000ffffffffffffffff000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  - Connectors:
+    - Name: Floor
+      ConnectionType: 3
+  - Connectors:
+    - Name: WallVerticalEdge
+      ConnectionType: 3
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
 --- !u!1 &1380719893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3452,6 +5174,87 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e0217f67409571c4fa9527cfb8d27efc, type: 3}
   m_PrefabInstance: {fileID: 1555517810}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1454588544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1454588545}
+  - component: {fileID: 1454588547}
+  - component: {fileID: 1454588546}
+  m_Layer: 0
+  m_Name: pCube9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1454588545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454588544}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1996582090}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1454588546
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454588544}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 5561349426305759274, guid: 82be3d0cdea8ab24ba4081cca3aeeab5, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1454588547
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454588544}
+  m_Mesh: {fileID: 7857590630482128698, guid: 82be3d0cdea8ab24ba4081cca3aeeab5, type: 3}
 --- !u!1 &1485667878
 GameObject:
   m_ObjectHideFlags: 0
@@ -3644,6 +5447,289 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 197349563de498a459a506115ce128f2, type: 3}
+--- !u!1001 &1512028286
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 974852280}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_Name
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!4 &1512028287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+  m_PrefabInstance: {fileID: 1512028286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1515758085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1515758087}
+  - component: {fileID: 1515758086}
+  m_Layer: 0
+  m_Name: Industrial Composer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1515758086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515758085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f2bfca8f3421c4cb1d5ee8375cfa7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileCollection: {fileID: 1655187344}
+  Seed: 0
+  MaxTries: 1
+  SolverTypeSelection: 1
+  ParallelInstances: 1
+  Timeout: 20
+  GenerateAsynchronously: 0
+  GenerateOnStart: 0
+  DestroyAfterUse: 0
+  InstantiateModelWhenGenerated: 1
+  OnModelGenerated:
+    m_PersistentCalls:
+      m_Calls: []
+  OnModelGenerationFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  GridSize: 100000000c00000010000000
+  BlockedTiles: []
+  FixedTiles:
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 0
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 15
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 15
+    - Start: 0
+      End: 11
+    - Start: 15
+      End: 15
+  - TileType: Empty
+    Dimensions:
+    - Start: 15
+      End: 15
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 15
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 15
+    - Start: 0
+      End: 11
+    - Start: 0
+      End: 0
+  - TileType: Empty
+    Dimensions:
+    - Start: 0
+      End: 15
+    - Start: 11
+      End: 11
+    - Start: 0
+      End: 15
+  - TileType: Chimney 1_1
+    Dimensions:
+    - Start: 7
+      End: 7
+    - Start: 2
+      End: 2
+    - Start: 10
+      End: 10
+  - TileType: Floor Turn
+    Dimensions:
+    - Start: 1
+      End: 1
+    - Start: 0
+      End: 0
+    - Start: 1
+      End: 1
+  - TileType: Inside
+    Dimensions:
+    - Start: 2
+      End: 13
+    - Start: 0
+      End: 0
+    - Start: 2
+      End: 13
+  SATSettings:
+    RandomizeConstraintOrder: 1
+    WeightPriority: 0
+    PercentageConstraints: []
+    AbsoluteConstraints:
+    - Name: Chimney 1
+      Comparison: 0
+      Value: 9
+    CustomPropertyConstraints: []
+  WFCSettings:
+    UseFailureRecovery: 1
+    FailureResetRadius: 2
+    RadiusSizeMultiplier: 1
+    BacktrackSteps: 2
+    BacktrackStepsMultiplier: 10
+    FailureDecay: 20
+    FailureAccelerationMultiplier: 10
+    FailureAccelerationDecay: 100
+  DoSlowGeneration: 0
+  IsPaused: 0
+  DoStep: 0
+  TimeStep: 0.1
+  SolverStepsPerStep: 1
+  UseFastDebugMode: 0
+  EmptyDebugObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  SlowGenerationMaterial: {fileID: 0}
+  Transparency: 0.1
+--- !u!4 &1515758087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515758085}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.48, y: 3.746769, z: -10.111994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1540044026
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1339044789}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+      propertyPath: m_Name
+      value: 25
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+--- !u!4 &1540044027 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9d5ac9f3ea6e554b953a93958b8d070, type: 3}
+  m_PrefabInstance: {fileID: 1540044026}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1555517810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3948,10 +6034,153 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!1 &1655187343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1655187345}
+  - component: {fileID: 1655187344}
+  m_Layer: 0
+  m_Name: Industrial Tile Collection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1655187344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655187343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6549ffed087c0fa4c9c5416f12f079bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ExampleModels: []
+  GridType: 1
+  GridScale:
+  - 1
+  - 1
+  - 1
+  HexagonNormalizeInnerRadius: 0
+  EmptyTiles:
+  - Name: Empty
+    Weight: 1
+    IsCompressible: 0
+  - Name: Inside
+    Weight: 35
+    IsCompressible: 0
+  Connectors:
+  - Name: WallVertical
+    IsBidirectional: 1
+  - Name: Wall
+    IsBidirectional: 1
+  - Name: WallVerticalEdge
+    IsBidirectional: 1
+  - Name: Floor
+    IsBidirectional: 1
+  - Name: Roof
+    IsBidirectional: 1
+  CustomValues: []
+--- !u!4 &1655187345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655187343}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 8.085543, y: 3.2467692, z: -12.481581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1371266062}
+  - {fileID: 497838114}
+  - {fileID: 1215518242}
+  - {fileID: 33229340}
+  - {fileID: 502356899}
+  - {fileID: 1305748473}
+  - {fileID: 1316401022}
+  - {fileID: 261033137}
+  - {fileID: 703325502}
+  - {fileID: 974852280}
+  - {fileID: 1778433874}
+  - {fileID: 1339044789}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!4 &1667334676 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5f58cb999440c6f41839f873fe571d08, type: 3}
   m_PrefabInstance: {fileID: 339477308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1716840409
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1305748473}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+      propertyPath: m_Name
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+--- !u!4 &1716840410 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5e30feb4141c90f4e93c09f1edfde430, type: 3}
+  m_PrefabInstance: {fileID: 1716840409}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1731433776 stripped
 Transform:
@@ -4091,6 +6320,114 @@ MonoBehaviour:
   BaseWeight: 1
   CanNeighborSelf: 1
   CustomProperties: []
+--- !u!1 &1778433873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1778433874}
+  - component: {fileID: 1778433875}
+  m_Layer: 0
+  m_Name: Chimney 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1778433874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778433873}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1996582090}
+  m_Father: {fileID: 1655187345}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1778433875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778433873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c47e40fcb2c8f4da79d85379f53494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseTile: {fileID: 0}
+  TileType: Chimney 1
+  RotationAxes: 01000000
+  Neighbors:
+  - TileType: Boring Floor
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Chimney 1
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 010000010000
+  - TileType: Chimney 1_1
+    Sides: 000000000000000000000000000000002000000000000000
+    Overrides: 000000000100
+  - TileType: Door left
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Door right
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Empty
+    Sides: 00000000000000000000000000000000ffffffff00000000
+    Overrides: 000000000000
+  - TileType: Floor Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Inside
+    Sides: 0000000000000000000000000000000000000000ffffffff
+    Overrides: 000000000000
+  - TileType: Normal Roof
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof filler
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Roof turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Single door
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Normal
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  - TileType: Wall Turn
+    Sides: 000000000000000000000000000000000000000000000000
+    Overrides: 000000000000
+  Connectors:
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors:
+    - Name: Roof
+      ConnectionType: 3
+  - Connectors: []
+  - Connectors: []
+  BaseWeight: 1
+  CanNeighborSelf: 1
+  CustomProperties: []
 --- !u!4 &1779422516 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5dc65e30a294f4e40894e4f14d44c84b, type: 3}
@@ -4100,6 +6437,68 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9c0386fbc56901c42a7168b353a6c107, type: 3}
   m_PrefabInstance: {fileID: 1332077857}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1803189576
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 261033137}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+      propertyPath: m_Name
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+--- !u!4 &1803189577 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 873a3f980ad383645b63ba97103e2a44, type: 3}
+  m_PrefabInstance: {fileID: 1803189576}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1804974291
 PrefabInstance:
@@ -4293,6 +6692,87 @@ MonoBehaviour:
   BaseWeight: 1
   CanNeighborSelf: 1
   CustomProperties: []
+--- !u!1001 &1832952695
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: minXSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: minYSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: maxHeight
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: minHeight
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: tilePrefab
+      value: 
+      objectReference: {fileID: 699977538}
+    - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: buildingChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411975595979303656, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_Name
+      value: Industrial Generator
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058765985966482717, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
 --- !u!1 &1922857005
 GameObject:
   m_ObjectHideFlags: 0
@@ -4432,6 +6912,42 @@ MonoBehaviour:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8411975595979303656, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
   m_PrefabInstance: {fileID: 2031744742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1996582089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996582090}
+  m_Layer: 0
+  m_Name: 21 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1996582090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996582089}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5, y: -0.5, z: -3.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1454588545}
+  m_Father: {fileID: 1778433874}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2007167304 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8411975595979303656, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+  m_PrefabInstance: {fileID: 1832952695}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2009834112
 PrefabInstance:
@@ -4640,6 +7156,14 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: maxHeight
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+      propertyPath: minHeight
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807661814800625943, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
       propertyPath: tilePrefab
       value: 
       objectReference: {fileID: 2083361884}
@@ -4697,6 +7221,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cf3214dacce7e446833c051a0eb3f34, type: 3}
+--- !u!1001 &2061214921
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 502356899}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+      propertyPath: m_Name
+      value: 19
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+--- !u!4 &2061214922 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2024ee434db1de44db2bea6bc41398b6, type: 3}
+  m_PrefabInstance: {fileID: 2061214921}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2083361884
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,8 +17,8 @@ namespace StixGames.TileComposer
             }
 
             // Add undo
-            Undo.RecordObject(collection, "Tile Collection Changes");
-            Undo.RecordObjects(collection.GetTiles(true), "Tile Collection Changes");
+            /*Undo.RecordObject(collection, "Tile Collection Changes");
+            Undo.RecordObjects(collection.GetTiles(true), "Tile Collection Changes");*/
             
             
             if (!Enum.IsDefined(typeof(GridType), collection.GridType))

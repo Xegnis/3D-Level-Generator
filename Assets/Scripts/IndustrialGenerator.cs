@@ -23,6 +23,8 @@ public class IndustrialGenerator : Generator
     public int minYSize;
     public float stopChance;
     public float buildingChance;
+    public int minHeight;
+    public int maxHeight;
 
     public override void Generate()
     {
@@ -132,7 +134,7 @@ public class IndustrialGenerator : Generator
         GameObject tile = Instantiate(tilePrefab, node.grid.origin + new Vector3(0.5f, 0, 0.5f), Quaternion.identity);
         WaveFunctionCollapse wfc = tile.GetComponent<WaveFunctionCollapse>();
         wfc.transform.SetParent(transform);
-        wfc.dimensions = new int[] { node.grid.xSize, Random.Range(6, 13), node.grid.ySize };
+        wfc.dimensions = new int[] { node.grid.xSize, Random.Range(minHeight, maxHeight + 1), node.grid.ySize };
         wfc.Generate();
     }
 

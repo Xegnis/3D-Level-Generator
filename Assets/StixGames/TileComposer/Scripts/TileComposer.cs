@@ -185,6 +185,27 @@ namespace StixGames.TileComposer
             }
         }
 
+        public async void StartGeneration ()
+        {
+            if (Seed == 0)
+            {
+                var seedGen = new System.Random();
+                for (int i = 0; i < MaxTries; i++)
+                {
+                    var finished = await GenerateInternal(seedGen.Next(), GenerateAsynchronously, i + 1);
+
+                    if (finished)
+                    {
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                await GenerateInternal(Seed, GenerateAsynchronously);
+            }
+        }
+
         public void Update()
         {
             if (slowRenderModel != null)
